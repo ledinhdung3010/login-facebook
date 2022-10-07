@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background-color: #F0F2F5;
+    height: 100vh;
+    position: relative;
+}
+
+#login{
+    position: absolute;
+    background-color:#fff ;
+    display: inline-block;
+    width: 396px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+}
+
+#login .form{
+    padding: 6px 0;
+    
+}
+
+#login .form .email{
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+}
+
+#login .button-login .login-button{
+    width: 330px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    line-height: 48px;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 16px;
+    
+}
+
+.button-login{
+    padding-top: 6px;
+}
+
+.password {
+    margin-top: 16px;
+}
+
+.password .Forgotten-password{
+    text-decoration: none;
+}
+
+#login .vach{
+    border-bottom: 1px dotted #dadde1;
+    margin: 20px 16px;
+}
+
+#login .new-acc{
+    padding-bottom:24px ;
+}
+
+#login .new-acc .new-account{
+    line-height: 48px;
+    font-size: 17px;
+    width: 197px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+}
